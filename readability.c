@@ -47,11 +47,11 @@ int main(void){
     //printf("A média de letras é: %f\n", meletra);
     //printf("A média de frases é: %f\n", mefrase);
 
-    //index = (0.0588*meletra)-(0.296*mefrase)-15.8;
-    //indexaprox = round(index);
+    index = (0.0588*meletra)-(0.296*mefrase)-15.8;
+    indexaprox = round(index);
 
-    printf("O index é: %f\n", index);
-    printf("O index aproximado é: %i\n", indexaprox);
+    //printf("O index é: %f\n", index);
+    //printf("O index aproximado é: %i\n", indexaprox);
 
     if(indexaprox < 1)
     {
